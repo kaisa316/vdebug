@@ -74,7 +74,7 @@ let g:vdebug_keymap_defaults = {
 \}
 
 let g:vdebug_options_defaults = {
-\    'port' : 9000,
+\    'port' : 9001,
 \    'timeout' : 20,
 \    'server' : '',
 \    'on_close' : 'stop',
@@ -98,7 +98,7 @@ let g:vdebug_options_defaults = {
 \        'DebuggerStack' : 'belowright new',
 \        'DebuggerStatus' : 'belowright new'
 \    },
-\    'window_arrangement' : ['DebuggerWatch', 'DebuggerStack', 'DebuggerStatus']
+\    'window_arrangement' : ['DebuggerWatch']
 \}
 
 " Different symbols for non unicode Vims
